@@ -4,7 +4,7 @@ widget = "projects"
 active = true
 date = "2016-04-20T00:00:00"
 
-title = "Projects"
+title = "项目"
 subtitle = ""
 
 # Order that this section will appear in.
@@ -29,16 +29,16 @@ filter_default = 0
 # Use "*" tag to show all projects or an existing tag prefixed with "." to filter by specific tag.
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
 [[filter]]
-  name = "All"
+  name = "所有"
   tag = "*"
 
 [[filter]]
-  name = "Deep Learning"
-  tag = ".deep-learning"
+  name = "Windows Phone"
+  tag = ".windows-phone"
 
 [[filter]]
-  name = "Other"
-  tag = ".项目"
+  name = "其它"
+  tag = ".project"
 
 +++
 
