@@ -268,7 +268,7 @@ defaultContentLanguageInSubdir = false
 
 
 [[menu.main]]
-  name = "联系"
+  name = "与我联系"
   url = "#contact"
   weight = 7
 
