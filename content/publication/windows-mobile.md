@@ -1,5 +1,5 @@
 +++
-title = "windows-mobile"
+title = "Windows Mobile平台应用与开发"
 date = "2006-06-01"
 
 authors = ["刘彦博","胡砚", "马骐"]
@@ -20,7 +20,7 @@ publication = '*人民邮电出版社*'
 publication_short = '*人民邮电出版社*'
 
 # Abstract and optional shortened version.
-abstract = "Person re-identification is a critical security task for recognizing a person across spatially disjoint sensors. Previous work can be computationally intensive and is mainly based on low-level cues extracted from RGB data and implemented on a PC for a fixed sensor network (such as traditional CCTV). We present a practical and efficient framework for mobile devices (such as smart phones and robots) where high-level semantic soft biometrics are extracted from RGB and depth data. By combining these cues, our approach attempts to provide robustness to noise, illumination, and minor variations in clothing. This mobile approach may be particularly useful for the identification of persons in areas ill-served by fixed sensors or for tasks where the sensor position and direction need to dynamically adapt to a target. Results on the BIWI dataset are preliminary but encouraging. Further evaluation and demonstration of the system will be available on our website."
+abstract = "本书是Windows Mobile平台应用与开发的学习指南。全书共6个部分。第一部分简要介绍了Windows Mobile平台和.NET Compact Framework。第二部分主要介绍在B/S和C/S架构的应用程序中，如何利用.NET Framework来开发服务器端应用。第三部分主要介绍了在C/S架构的应用程序中，如何利用.NET Compact Framework来开发客户端应用。第四部分首先介绍了.NET中全新的数据访问模型ADO.NET，然后分别介绍了如何远程访问服务器数据库中的数据和本地数据库中的数据，以及本地数据如何做到与服务器同步等问题。第五部分主要介绍了移动设备所特有的网络技术如短消息、彩信和E-mail等的开发与实施。第六部分主要介绍了Windows Mobile平台所特有的安全特性，以及如何利用这些特性和.NET中提供的相关API来开发安全的移动设备应用程序。本书适合Windows Mobile的初、中级程序员学习，也适合作为Windows Mobile应用开发的参考手册。"
 abstract_short = ""
 
 # Featured image thumbnail (optional)
@@ -32,11 +32,11 @@ selected = true
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-projects = ["example-external-project"]
+# projects = ["出版书籍"]
 
 # Custom links (optional).
 #   Uncomment line below to enable. For multiple links, use the form `[{...}, {...}, {...}]`.
-url_custom = [{name = "Custom Link", url = "http://www.ptpress.com.cn/Book.aspx?id=7181"}]
+url_custom = [{name = "亚马逊书店", url = "https://www.amazon.cn/dp/B00114N5DS"}]
 
 # Does the content use math formatting?
 math = true
@@ -47,9 +47,7 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = "headers/bubbles-wide.jpg"
+image = "windowsmobile.jpg"
 caption = "My caption :smile:"
 
 +++
-
-More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.

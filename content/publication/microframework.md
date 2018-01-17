@@ -1,9 +1,8 @@
 +++
-title = "microframework"
+title = "Microsoft.NET Micro Framework 嵌入式编程"
 date = "2015-09-01"
 
-# Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
-authors = ["GA Cushen"]
+authors = ["汤普逊 (Donaid Thompson) (作者)", "Rob S.Miles (作者)", "马骐 (译者)", "张欣 (译者)", "杜伟 (译者)"]
 
 # Publication type.
 # Legend:
@@ -17,11 +16,11 @@ authors = ["GA Cushen"]
 publication_types = ["2"]
 
 # Publication name and optional abbreviated version.
-publication = "In *Signal Image Technology & Internet Systems (SITIS)*, IEEE."
-publication_short = "In *SITIS*"
+publication = "*机械工业出版社*"
+publication_short = "*机械工业出版社*"
 
 # Abstract and optional shortened version.
-abstract = "Person re-identification is a critical security task for recognizing a person across spatially disjoint sensors. Previous work can be computationally intensive and is mainly based on low-level cues extracted from RGB data and implemented on a PC for a fixed sensor network (such as traditional CCTV). We present a practical and efficient framework for mobile devices (such as smart phones and robots) where high-level semantic soft biometrics are extracted from RGB and depth data. By combining these cues, our approach attempts to provide robustness to noise, illumination, and minor variations in clothing. This mobile approach may be particularly useful for the identification of persons in areas ill-served by fixed sensors or for tasks where the sensor position and direction need to dynamically adapt to a target. Results on the BIWI dataset are preliminary but encouraging. Further evaluation and demonstration of the system will be available on our website."
+abstract = "描述使用微软.NET Micro Framework进行嵌入式开发的校心技术和概念。<<Microsoft.NET Micro Framework嵌入式编程>>主要内容包括构建基于.NET Micro Framework的小型连接设备，构造设备、网络技术、创建界面显示、使用SideShow、使用仿真嚣以及控制机器人。<<Microsoft.NET Micro Framework嵌入式编程>>通过实践来说明嵌入式开发的技术和知识，从通用的GPIO和中断，到Client/Server网络，再到Windows SideShow。<<Microsoft.NET Micro Framework嵌入式编程>>适合嵌入式开发人员以及其他软件开发人员参考。"
 abstract_short = ""
 
 # Featured image thumbnail (optional)
@@ -33,18 +32,6 @@ selected = false
 # Projects (optional).
 #   Associate this publication with one or more of your projects.
 #   Simply enter the filename (excluding '.md') of your project file in `content/project/`.
-projects = ["deep-learning"]
-
-# Links (optional).
-url_pdf = "http://arxiv.org/pdf/1512.04133v1"
-url_preprint = ""
-url_code = ""
-url_dataset = ""
-url_project = ""
-url_slides = ""
-url_video = ""
-url_poster = ""
-url_source = ""
 
 # Does the content use math formatting?
 math = true
@@ -55,9 +42,8 @@ highlight = true
 # Featured image
 # Place your image in the `static/img/` folder and reference its filename below, e.g. `image = "example.jpg"`.
 [header]
-image = ""
+image = "microframework.jpg"
 caption = ""
 
 +++
 
-More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
