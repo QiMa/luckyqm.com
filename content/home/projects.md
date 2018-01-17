@@ -33,8 +33,8 @@ filter_default = 0
   tag = "*"
 
 [[filter]]
-  name = "Windows Phone"
-  tag = ".windows-phone"
+  name = "windowsphone"
+  tag = ".windowsphone"
 
 [[filter]]
   name = "其它"
