@@ -61,3 +61,4 @@ caption = ""
 <a href="http://ywj.wanjiabuluo.top">Los Angeles Lakers|</a>
 <a href="http://linwli.gtihub.io/">体育委员长华</a>
 <a href="https://58zch.github.io/">林万里</a>
+<a href="https://gyh666.github.io/">林鑫的体育速递</a>
