@@ -20,6 +20,7 @@ after_success: |
     if [ $# -eq 1 ]
     then msg="$1"
     fi
+    git checkout master
     echo -e "\033[0;32mgit commit, m:$msg \033[0m"
     git -c user.name='Qi Ma' -c user.email='mq@tuojie.com' commit -m "$msg"
     echo -e "\033[0;32m提交消息为$msg \033[0m"    
