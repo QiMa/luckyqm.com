@@ -1,0 +1,10 @@
+# Install the apt prerequisites
+addons:
+  apt:
+    packages:
+      - python-pygments
+
+# Build the website
+script:
+  - binaries/hugo
+  - sh deploy.sh
