@@ -9,20 +9,20 @@ install:
     
 # Build the website
 script:
-  - hugo
+  - hugo -c doc
 
 after_success: |
     if [ -n "$GITHUB_API_KEY" ]; then
     echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
-    cd public
-    git add .
+    cd doc
+    git add -f --ignore-errors --all
+    echo "luckyqm.com" > CNMAE
+    echo "www.luckyqm.com" > CNAME
     msg="重新构建站点 `date`" 
     if [ $# -eq 1 ]
     then msg="$1"
     fi
     echo -e "git commit, m:$msg"
     git -c user.name='Qi Ma' -c user.email='mq@tuojie.com' commit -m "$msg"
-    echo -e "提交消息为$msg"    
     git push -f -q https://$GITHUB_USER:$GITHUB_API_KEY@github.com/qima/qima.github.io.git master
-    git status
     fi  
