@@ -15,7 +15,6 @@ after_success: |
     if [ -n "$GITHUB_API_KEY" ]; then
     echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
     cd public
-    git checkout master
     git add .
     msg="重新构建站点 `date`" 
     if [ $# -eq 1 ]
