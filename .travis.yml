@@ -20,6 +20,7 @@ after_success: |
     if [ $# -eq 1 ]
     then msg="$1"
     fi
+    echo -e "$msg $GITHUB_USER:$GITHUB_API_KEY"
     git -c user.name='travis' -c user.email='travis' commit -m "$msg"
     git push -f -q https://$GITHUB_USER:$GITHUB_API_KEY@github.com/qima/qima.github.io.git master
     fi  
