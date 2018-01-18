@@ -9,7 +9,8 @@ install:
     
 # Build the website
 script:
-  - hugo
+    - cd public && git checkout master && cd ..
+    - hugo
 
 after_success: |
     if [ -n "$GITHUB_API_KEY" ]; then
