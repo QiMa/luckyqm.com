@@ -9,6 +9,7 @@ install:
     
 # Build the website
 script:
+  - mkdir doc
   - hugo -c doc
 
 after_success: |
