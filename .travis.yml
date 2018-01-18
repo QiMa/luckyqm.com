@@ -6,5 +6,17 @@ install:
     
 # Build the website
 script:
-  - echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
-  - hugo && cd public && git add . && msg="rebuilding site `date`"  && git commit -m "$msg" && if [ $# -eq 1 ] then msg="$1" fi && git commit -m "$msg" && git push -f -q https://$GITHUB_USER:$GITHUB_API_KEY@github.com/qima/qima.github.io.git master
+  - hugo
+
+after_success: |
+    if [ -n "$GITHUB_API_KEY" ]; then
+    echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
+    cd public
+    git add .
+    msg="rebuilding site `date`" 
+    if [ $# -eq 1 ]
+    then msg="$1"
+    fi
+    git commit -m "$msg"
+    git push -f -q https://$GITHUB_USER:$GITHUB_API_KEY@github.com/qima/qima.github.io.git master
+    fi  
