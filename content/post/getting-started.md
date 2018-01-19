@@ -5,7 +5,7 @@ date = 2017-05-20
 lastmod = 2018-01-13
 draft = false
 
-tags = ["bitcoin"]
+tags = ["博客，blog"]
 summary = ""
 
 +++
