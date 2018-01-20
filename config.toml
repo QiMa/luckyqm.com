@@ -56,7 +56,10 @@ defaultContentLanguageInSubdir = false
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "厦门理工软件学院", url = "http://www.xmut.edu.cn/" }, {name="三峡大学", url="http://www.ctgu.edu.cn/"} ]
+  organizations = [ { name = "厦门理工软件学院", url = "http://www.xmut.edu.cn/" }, 
+  {name="三峡大学", url="http://www.ctgu.edu.cn/"},
+  {name="Cocos游戏引擎", url="http://www.cocos.com/"},
+  {name="运七游戏", url="http://www.luckyzune.com/"} ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
